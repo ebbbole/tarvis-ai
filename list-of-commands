@@ -1,0 +1,16 @@
+ Hello
+        response = "Hello there!"
+Tell me a joke
+        response = " Have you subscribed to my channel?"
+What is your name?
+        response = "My name is Tarvis!"
+Who are you?
+        response = "I'm a computer program, so I don't have feelings, but I'm here to assist you!"
+Thank you
+        response = "You're welcome!"
+What can you do?
+        response = "I can answer light questions, respond to greetings, or even tell a joke."
+    elif "" in user_input.lower():
+        response = "The textbox is empty. Did you type anything?"
+Any other input (for now)
+        response = "I'm sorry, I cannot provide a response at the moment."
